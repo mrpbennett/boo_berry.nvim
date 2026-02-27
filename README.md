@@ -2,22 +2,32 @@
 
 A Neovim colorscheme ported from Helix editor's **boo_berry** theme (originally by [bootra](https://github.com/helix-editor/helix/blob/master/runtime/themes/boo_berry.toml)).
 
-Plugin structure inspired by [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim).
+![visual](assets/visual.png)
+
+## Why You'll Love This Theme
+
+Some themes are _berry_ boring. Others are just _boo_-ring. But boo-berry? It's got **bubblegum** for your keywords, **mint** fresh highlights for your functions, and a **berry** dark background that won't spook your eyes at 2am.
+
+It's not just a colorscheme—it's a **lilac**-dream for your code. The **violet** types will make you feel fancy, the **gold** strings will make you feel rich (mentally, at least), and the **mint** green will remind you to breathe.
+
+Still not convinced? That's okay—we won't take it **bubblegum**-ographically. But once you go **berry** dark, you never go back.
+
+_Warning: May cause excessive "ooh, pretty" moments. Side effects include showing your screen to coworkers and saying "look at my colors" unprompted._
 
 ## Palette
 
-| Name | Hex | Role |
-|------|-----|------|
-| berry | `#3A2A4D` | Background |
-| berry_saturated | `#2B1C3D` | Deep background (menus) |
-| berry_dim | `#47345E` | Non-text, cursor line |
-| berry_fade | `#5A3D6E` | Selection, visual |
-| berry_desaturated | `#886C9C` | Comments, gutter |
-| lilac | `#C7B8E0` | Foreground, variables, punctuation |
-| bubblegum | `#D678B5` | Keywords, operators, macros |
-| gold | `#E3C0A8` | Constants, strings, tags, labels |
-| mint | `#7FC9AB` | Functions, diff add |
-| violet | `#C78DFC` | Types, builtins |
+| Name              | Hex       | Role                               |
+| ----------------- | --------- | ---------------------------------- |
+| berry             | `#3A2A4D` | Background                         |
+| berry_saturated   | `#2B1C3D` | Deep background (menus)            |
+| berry_dim         | `#47345E` | Non-text, cursor line              |
+| berry_fade        | `#5A3D6E` | Selection, visual                  |
+| berry_desaturated | `#886C9C` | Comments, gutter                   |
+| lilac             | `#C7B8E0` | Foreground, variables, punctuation |
+| bubblegum         | `#D678B5` | Keywords, operators, macros        |
+| gold              | `#E3C0A8` | Constants, strings, tags, labels   |
+| mint              | `#7FC9AB` | Functions, diff add                |
+| violet            | `#C78DFC` | Types, builtins                    |
 
 ## Requirements
 
@@ -149,4 +159,3 @@ local colors = require("boo-berry").colors()
 ## License
 
 MIT
-# boo_berry.nvim

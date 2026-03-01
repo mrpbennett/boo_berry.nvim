@@ -2,7 +2,7 @@
 
 A Neovim colorscheme ported from Helix editor's **boo_berry** theme (originally by [bootra](https://github.com/helix-editor/helix/blob/master/runtime/themes/boo_berry.toml)).
 
-![visual](assets/visual.png)
+![visual](assets/imgs/visual.png)
 
 ## Why You'll Love This Theme
 
@@ -158,10 +158,21 @@ local colors = require("boo-berry").colors()
 - noice.nvim
 - nvim-notify
 
+## Ghostty
+
+Ghostty theme created by [dbozbay](https://github.com/dbozbay) just add [./extras/ghostty/boo-berry](./extras/ghostty/boo-berry) to your `.config/ghostty/themes` directory and add the following to your `config`
+
+```
+theme = boo-berry
+```
+
+![ghostty](assets/imgs/ghostty.png)
+
 ## Credits
 
 - **boo_berry** helix theme by [bootra](https://github.com/helix-editor/helix/blob/master/runtime/themes/boo_berry.toml)
 - Plugin architecture from [Mofiqul/dracula.nvim](https://github.com/Mofiqul/dracula.nvim)
+- Ghostty theme from [https://github.com/dbozbay](dbozbay)
 
 ## License
 

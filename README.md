@@ -8,6 +8,7 @@
  <a href="https://github.com/mrpbennett/boo-berry.nvim/issues"><img src="https://img.shields.io/github/issues/mrpbennett/boo-berry.nvim?colorA=363a4f&colorB=f5a97f&style=for-the-badge"></a>
  <a href="https://github.com/mrpbennett/boo-berry.nvim/contributors"><img src="https://img.shields.io/github/contributors/mrpbennett/boo-berry.nvim?colorA=363a4f&colorB=a6da95&style=for-the-badge"></a>
 </p>
+
 A Neovim colorscheme ported from Helix editor's **boo_berry** theme (originally by [bootra](https://github.com/helix-editor/helix/blob/master/runtime/themes/boo_berry.toml)).
 
 ![visual](assets/imgs/visual.png)
